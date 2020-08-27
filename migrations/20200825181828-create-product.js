@@ -11,6 +11,12 @@ module.exports = {
       name: {
         type: Sequelize.STRING
       },
+      has_extra: {
+        type: Sequelize.BOOLEAN
+      },
+      is_burger: {
+        type: Sequelize.BOOLEAN
+      },
       price: {
         type: Sequelize.DECIMAL(10,2)
       },
